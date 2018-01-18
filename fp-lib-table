@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SmallHeader)(type KiCad)(uri "$(KIPRJMOD)/SmallHeader.pretty")(options "")(descr ""))
+)
