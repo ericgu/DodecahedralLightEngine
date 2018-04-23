@@ -234,4 +234,19 @@ Wire Wire Line
 Wire Wire Line
 	8250 2950 8250 3600
 Connection ~ 8250 3600
+$Comp
+L C C1
+U 1 1 5ADD44D3
+P 9700 2800
+F 0 "C1" H 9725 2900 50  0000 L CNN
+F 1 "C" H 9725 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 9738 2650 50  0001 C CNN
+F 3 "" H 9700 2800 50  0001 C CNN
+	1    9700 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9700 2650 0    60   Input ~ 0
+VCC
+Text GLabel 9700 2950 0    60   Input ~ 0
+GND
 $EndSCHEMATC
